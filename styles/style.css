@@ -1,0 +1,448 @@
+/* Inporation d'une police dd'écriture */
+
+@font-face 
+{
+    font-family: 'Minecraft';
+    font-weight: normal;
+    src: url(../fonts/Minecraft.ttf) format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KGRedHands';
+    src: url(../fonts/KGRedHands.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+/* Style pour le body du site*/
+
+body
+{
+    margin: 0;
+    background-image: url(../images/fond_minecraft2.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+/* Classes pour la page d'accueil*/
+
+.header-accueil
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-accueil
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.margefooter-accueil
+{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.pageaccueil
+{
+    min-height: 100vh;
+}
+
+.pageaccueil2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    width: 530px;
+}
+
+.boutonaccueil
+{
+    margin-top: 128px;
+    padding: 4px;
+    font-size: 25px;
+}
+
+/* Classes pour la page Liste_S.A.É */
+
+.header-listeSAE
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.carre-listeSAE
+{
+    margin: 8px;
+    padding: 8px 16px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 5px black;
+    border: #333238 solid 2px;
+    width: 650px;
+}
+
+.carre-listeSAE:hover
+{
+    margin: 8px;
+    padding: 8px 16px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 20px white;
+    width: 650px;
+}
+
+.competence-listeSAE
+{   
+    padding: 4px 8px;
+    color:#5300e5
+}
+
+/* Classes pour la page infos_S.A.É */
+
+.header-infosSAE
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.description-infosSAE
+{
+    width: 1120px;
+    justify-content: center;
+    border: #333238 solid 2px;
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 1px 1px 10px #333238 ;
+}
+
+.competence-infosSAE
+{
+    display: flex;
+    justify-content: center;
+    border: #333238 solid 2px;
+    border-radius: 4px;
+    padding: 8px;
+    width: 110px;
+    box-shadow: 1px 1px 10px #333238 ;
+}
+
+.AC-infosSAE
+{
+    padding: 8px;
+    border-radius: 4px;
+    width: 1100px;
+    border: #333238 solid 2px;
+    margin: 8px;
+    box-shadow: 1px 1px 10px #333238 ;
+}
+
+.AC-infosSAE:hover
+{
+    padding: 8px;
+    border-radius: 4px;
+    width: 1100px;
+    border: #333238 solid 2px;
+    margin: 8px;
+    box-shadow: 1px 1px 10px white;
+    background-color: rgb(91, 162, 255);
+}
+
+.ressource-infosSAE
+{
+    padding: 8px;
+    border-radius: 4px;
+    width: 300px;
+    border: #333238 solid 2px;
+    margin: 8px;
+    box-shadow: 1px 1px 10px #333238 ;
+}
+
+/* Classes pour la page de justification des AC*/
+
+.header-AC
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pageAC
+{
+    height: 100vh;
+}
+
+.justification-AC
+{
+    width: 1500px;
+}
+
+/* Classes pour la page présentation */
+
+.header-presentation
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page-presentation
+{
+    height: 100vh;
+}
+
+.presentation
+{
+    width: 1120px;
+    justify-content: center;
+    border: #333238 solid 2px;
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 1px 1px 10px #333238 ;
+}
+    
+
+/* Classes pour la page À Propos */
+
+.header-APropos
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page-APropos
+{
+    height: 100vh;
+}
+
+.APropos
+{
+    width: 1120px;
+    justify-content: center;
+    border: #333238 solid 2px;
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 1px 1px 10px #333238 ;
+}
+/* Classe pour flooter */
+
+.flouaccueil
+{
+    backdrop-filter: blur(2px); 
+    background-color: rgba(255, 255, 255, 0.3); 
+    width: 100%;
+}
+
+.flou
+{
+    backdrop-filter: blur(5px); 
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.flou1
+{
+    backdrop-filter: blur(5px); 
+    background-color: rgba(65, 65, 65, 0.8); 
+}
+
+/* Classes pour les textes (polices, couleur, etc.) */
+
+.texte
+{
+    font-family: 'Minecraft', sans-serif;
+}
+
+.texte1
+{
+    font-family: 'KGRedHands', sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* Classes pour les traits */
+
+.hr-gris
+{
+    height: 2px;
+    border-width: 0;
+    background-color: #333238;
+}
+
+/* Classes pour les couleurs */
+
+.blanc
+{
+    color: #fde6e0;
+}
+
+.gris
+{
+    color: #333238;
+}
+
+/* Classes pour les boutons */
+
+.bouton
+{
+    padding-top: 8px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9e9e9e;
+    border: solid 1px #333238;
+    width: 512px;
+    box-shadow: 1px 1px 10px #6b6b6b;
+}
+
+.bouton:hover
+{
+    border: solid 1px #fde6e0;
+    box-shadow: 1px 1px 10px #fde6e0;
+    background-color: rgb(91, 162, 255);
+    color: #e2e06a;
+}
+
+/* Classes pour les marges de toutes les pages */
+
+.marge0
+{
+    margin: 0;
+}
+
+.margetop
+{
+    margin-top: 32px;
+}
+
+.margetop1
+{
+    margin-top: 16px;
+}
+
+.margebottom
+{
+    margin-bottom: 8px;
+}
+
+.margepetite
+{
+    margin: 4px;
+}
+
+/* Classes pour du gap */
+
+.gap
+{
+    gap: 16px;
+}
+
+/* Classes pour du flex */
+
+.flex
+{
+    display: flex;
+    align-items: center;
+}
+
+.flexcentre
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexcentre1
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexcolonne
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexgrille
+{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+}
+
+.flexgrille1
+{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8px;
+}
+
+.flexgauche
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Code pour faire un diapo    A GARDER !!!!!!!!!!!!
+.diapo
+{
+    margin:0 auto;
+    width: 960px;
+    height: 500px;
+    border: 3px solid #fde6e0;
+    background-image: url(../images/Portfolio_animation1.png);
+    animation-name: diapo;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    box-shadow: #fde6e0 1px 1px 10px;
+}
+
+@keyframes diapo
+{
+    
+    0%{background-image: url(../images/Portfolio_animation1.png);}
+    33%{background-image: url(../images/Portfolio_animation2.png);}
+    66%{background-image: url(../images/Portfolio_animation3.png);}
+    
+}
+*/
